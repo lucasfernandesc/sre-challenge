@@ -3,7 +3,7 @@ import requests
 from flask import Flask, request, jsonify, render_template
 
 app = Flask(__name__)
-
+# Add backend ip private network 
 backend_host = os.getenv("BACKEND_HOST", "192.168.65.5")
 backend_port = os.getenv("BACKEND_PORT", 8080)
 
@@ -55,6 +55,6 @@ def create_user(id, name):
     except Exception as e:
         app.logger.error(e)
         
-
+# Add frontend ip private network 
 if __name__ == "__main__":
     app.run(debug=True, host="192.168.65.6", port=8000)

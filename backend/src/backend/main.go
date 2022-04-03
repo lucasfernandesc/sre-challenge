@@ -196,7 +196,7 @@ func main() {
 
 	log.SetFormatter(&log.JSONFormatter{})
 	log.Info("Starting backend")
-
+	// Add backend ip private network
 	http.ListenAndServe("192.168.65.5:8080", router)
 
 }
