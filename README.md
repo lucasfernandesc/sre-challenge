@@ -54,7 +54,7 @@ _____________________________________
 
 ## Racional
 
-A ideia para esse desafio foi para que fosse uma soluçãos imples para o Desenvolvedor que está iniciando a carreira conseguir subir o ambiente em minutos, através de um único comando e em vários tipos de ambientes (Virtual box, Vmware, Máquinas EC2 etc...)
+A ideia para esse desafio foi para que fosse uma solução simples para o Desenvolvedor que está iniciando a carreira conseguir subir o ambiente em minutos, através de um único comando e em vários tipos de ambientes (Virtual box, Vmware, Máquinas EC2 etc...)
 
 Antes criar o dockerfile e pensar nos steps para criação da imagem, fiz a subida dos ambientes de forma manual para entender o comportamento dos scripts e entender os pré-requisitos que cada imagem deveria ter.
 
